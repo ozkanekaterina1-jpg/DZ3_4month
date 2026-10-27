@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.card {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.card img {
+    width: 70%;
+}
+.cart {
+    margin-top: 50px;
+    text-align: left;
+}
